@@ -1,0 +1,436 @@
+@font-face {
+	font-family: 'raleway-light';
+
+	src: local('Raleway'), local('Raleway'), url('Raleway-Light.otf') format('truetype');
+	font-size: 10px;
+}
+body{
+    font-family: raleway-light; 
+    margin:0px;
+    padding:0px;
+    background: #3fbcf0;
+    }
+
+    .search_txt{
+        border-radius: 10px;
+        width: 80%;
+        height: 35px;
+        margin-top: 10px;
+        padding-left:10px;
+        margin-left: 28px;
+        background: #2c5f86;
+        border: #8ed2ef solid 5px;
+        font-size: 25px;
+        color: white;
+        -moz-box-shadow:    inset 0 0 10px #000000;
+        -webkit-box-shadow: inset 0 0 10px #000000;
+        box-shadow:         inset 0 0 10px #000000;
+
+    }
+
+    .search_box{
+        min-height:70px;
+        width: 98%;
+        padding: 15px;
+        position:relative;
+    }
+
+    .search_box{
+        min-height:70px;
+        width: 98%;
+        padding: 15px;
+        position:relative;
+    }
+    .user_sname{
+        width: 210px;
+        height: 20px;
+        color: white;
+        position: absolute;
+        right: 18.3%;
+        padding-top: 7px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 7px;
+        text-align: center;
+        top: 31px;
+        }
+    .wrap{
+        min-height: 340px;
+        width: 98%;
+        padding: 15px;
+        }
+
+    .desc{
+        width: 95%;
+        text-align: left;
+        background: white;
+        height: 360px;
+        float: left;
+        padding: 5px;
+        margin-top: -20px;
+        margin-left: 20px;
+        overflow-x: scroll;
+        border-radius: 10px;
+        }
+    .total{
+        border: solid 5px white;
+        border-radius: 10px;
+        min-height:260px;
+        display: block;
+        overflow: auto;
+        width: 93%;
+        margin-left:20px;
+        padding: 15px;
+        background: transparent;
+        text-align: right;
+    }
+    .total label{
+        font-family: raleway-light;
+        font-size: 20px;
+        color: #007520;
+        margin-right: 100px;
+    }
+    .total input{
+        font-family: raleway-light;
+        float: right;
+        min-height:120px;
+        width: 44%;
+        color: #007520;
+        padding: 15px;
+        background: transparent;
+        border: 0px;
+        text-align: right;
+        font-size: 100px;
+    }
+    .one{
+        border-radius: 10px;
+        float: left;
+        width: 45%;
+        background: white;
+        display: block;
+        overflow: auto;
+        min-height: 80px;
+        margin-left: 10px;
+    }
+    .one label{
+        color: #3fbcf0;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+    /*
+    .one p{
+        color: #ef9c00;
+        font-size: 25px;
+        padding: 10px;
+        text-align: right;
+    }
+    */
+    .hold{
+        border-radius: 10px;
+        border: 3px solid #3fbcf0;
+        float: right;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-right: 10px;
+        height: 150px;
+        width: 30%;
+    }
+    .hold label{
+        font-size: 20px;
+        margin: 1px;
+        font-size: 1.5vw;
+        color: #df0024;
+    }
+    .hold p{
+        font-size: 70px;
+        text-align: left;
+        font-size: 6.5vw;
+        padding: 10px;
+        margin: 1px;
+        color: #df0024;
+        text-align:right;
+    }
+    .user_details{
+        float: left;
+        border-top: 3px solid #3fbcf0;
+        min-height: 100px;
+        width: 55%;
+        margin: 5px;
+        }
+        
+    .user_details p{
+    font-size: 20px;
+    text-align: left;
+    padding:0px;
+    font-size: 1.5vw;
+    margin: 1px;
+    color: #044476;
+    }
+    .total_vat{
+    margin: 5px;
+    height: 100px;
+    width: 97%;
+    }
+    .total_vat p{
+        font-size: 20px;
+        margin: 0px;
+        padding:0px; 
+        color: #ef9c00;
+        text-align: right;
+    }
+    .total_vat b{
+        font-size: 55px;
+        margin: 0px;
+        padding:0px; 
+        font-size: 4.5vw;
+        color: #ef9c00;
+        text-align: right;
+    }
+    .batch{
+        width: 60px;
+        float: right;
+        background-image: url('../img/batch_open.png');
+        height: 60px;
+        cursor: pointer;
+    }
+    .batch p{
+        font-size: 15px;
+        padding-top: 18px;
+        padding-left:10px;
+        color: white;
+        text-align: left;
+    }
+    .act_total p{
+        font-size: 90px;
+        color: #ffffff;
+        margin-right: 55px;
+       
+    }
+    .total_figure{
+        width:45%;
+        height:250px;
+        float:right;
+    }
+    .total_figure p{
+        font-size: 20px;
+        margin: 0px;
+        padding:0px; 
+        color: white;
+        text-align: right;
+    }
+    .total_figure b{
+        font-size: 300px;
+        font-size: 8.5vw;
+        padding-top:20px; 
+        color: white;
+        text-align: right;
+    }
+    #total_ipt{
+        color: #ffffff;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+    }
+    .login{
+        font-family: raleway-light;
+        position: absolute;
+        right:0;
+        left:0;
+         display: none; 
+        left: 20px;
+        top: 10px;
+        width: 96%;
+        height: 780px;
+        border-radius: 10px;
+        border: white solid 7px;
+        background-image: url('../img/modal.png');
+        -webkit-box-shadow: 0 0 6px black;
+            box-shadow: 0 0 6px black;
+    }
+    .login input[type=text], input[type=password]{
+        font-family: raleway-light;
+    border-radius: 5px;
+    width: 95%;
+    height: 35px;
+    margin-top: 20px;
+    border: #8ed2ef solid 2px;
+    font-size: 35px;
+    color: #818181;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    }
+    .login_btn{
+        font-family: raleway-light;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 35px;
+    background: #8ed2ef;
+    border: #8ed2ef solid 5px;
+    width: 30%;
+    font-size: 18px;
+    float:right;
+     
+    }
+    .sbmit_btn{
+        border-radius: 10px;
+        margin: 10px;
+        height: 35px;
+        border: #8ed2ef solid 3px;
+        width: 80px;
+        font-size: 16px;
+    }
+    .inside{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+        width: 40%;
+        display: block;
+        overflow: auto;
+        padding:0px;
+    }
+    .inside li{
+        list-style :none;
+      
+    }
+    .mbox{
+        width: 300px;
+        height: 310px;
+        float: left;
+        background-image: url('../img/backy.png');
+        border-radius: 10px;
+        -webkit-box-shadow: 0 0 6px black;
+                box-shadow: 0 0 6px black;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid #7cc623;
+    }
+    .mbox_items_ttl_top{
+        width: 95%;
+        overflow: hidden;
+        padding: 5px;
+        margin-top: -29px;
+        margin-bottom: 5px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ef9c00;
+        }
+        .mbox_items_ttl{
+        width: 95%;
+        overflow: hidden;
+        padding: 5px;
+        margin-top: -3px;
+        margin-bottom: 5px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ef9c00;
+        
+        }
+        .mbox_price_ttl{
+        width: 95%;
+        overflow: hidden;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        
+        color: #14507e;
+        }
+        .mbox_items_desc{
+        width: 95%;
+        overflow: hidden;
+        padding: 5px;
+        margin-top: -3px;
+        margin-bottom: 5px;
+        float: left;
+        color: #979797;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        
+        border-bottom: 2px #ef9c00 solid;
+        text-align: right;
+        }
+        
+        .mbox_items_price{
+        width: 97%;
+        overflow: hidden;
+        float: left;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        color: #14507e;
+        margin-top: -20px;
+        border-radius: 10px;
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        
+        }
+        .mbox_items_total{
+        width: 97%;
+        overflow: hidden;
+        float: left;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        color: #007520;
+        margin-top: -20px;
+        border-radius: 10px;
+        font-size: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        
+        }
+        .mbox_qty{
+        width: 102%;
+        overflow: hidden;
+        float: left;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        color: white;
+        background: #7cc623;
+        font-size: 34px;
+        cursor: pointer;
+        text-align: left;
+        margin-left: -6px;
+        }
+        .mbox_qty_ins{
+        padding-right: 5px;
+        height: auto;
+        width: 100%;
+        font-size: 50px;
+        text-align: right;
+        }
+        
+        .mbox_qty_ins_ttl{
+        font-size: 17px;
+        padding-left: 5px;
+        height: auto;
+        width: 100%;
+        }
+        .mbox_del{
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 280px;
+        top: -20px;
+        cursor: pointer;
+        background: url(../../res/img/close.png);
+        }
+        .fake_mbox_del{
+        width: 32px;
+        height: 32px;
+        position: relative;
+        left: 280px;
+        top: -20px;
+        cursor: pointer;
+        
+        }
